@@ -18,15 +18,13 @@ int gcd(int a, int b) {
     arr2 = new int[lenght2];
 
 
-    for (int i = 1; i <= a; i++)
-    {
+    for (int i = 1; i <= a; i++) {
         if (a % i == 0) {
             arr1[h++] = i;
         }
     }
 
-    for (int j = 1; j <= b; j++)
-    {
+    for (int j = 1; j <= b; j++) {
         if (b % j == 0) {
             arr2[n++] = j;
         }
